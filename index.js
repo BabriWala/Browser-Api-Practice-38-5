@@ -15,7 +15,6 @@ document.getElementById('giveNumber').addEventListener('click', ()=>{
 })
 
 // What it Cookies, Writing in English at Least 5-7 lines
-
 /*
     Cookies are DAta, Stored in small text files, on our computer.
     When a web server has sent a web page to a browser, the connection is shutdown, and the server forgets everything about the users.
@@ -25,3 +24,9 @@ document.getElementById('giveNumber').addEventListener('click', ()=>{
     Cookies are saved in name-value pairs lik: username = john
     When a browser requests a web page from a server, cookies belonging to the page are added to the request. This way the server gets the necessary data to "remmeber" infromation about server.
 */
+
+// Write at least 3 difference between local storage and session storage
+/**
+ * session storage persisted data only untill the window or tab is closed
+ * local storage persisted data until the user manually clear the browser chache or until your web clears the data
+ */
